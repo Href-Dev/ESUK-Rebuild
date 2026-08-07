@@ -1,0 +1,21 @@
+[data-animate] {
+    &[data-animate="fade-in"] {
+        opacity: 0;
+    }
+    &[data-animate="fade-left"] {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    &[data-animate="fade-right"] {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    &[data-animate="fade-up"] {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    &[data-animate="fade-down"] {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+}

@@ -1,0 +1,37 @@
+.swiper-nav {
+    margin-top: 24px;
+    .swiper-btn {
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        transition: all 0.5s ease;
+        background-color: #aaaaff;
+        border-radius: 50%;
+    }
+}
+.swiper-pag {
+    top: unset;
+    bottom: unset;
+    left: unset;
+    right: unset;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 24px;
+    .swiper-pagination-bullet {
+        background-color: #aaaaaa;
+        opacity: 1;
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        margin: 0 !important;
+        transition: all 0.5s ease;
+        &.swiper-pagination-bullet-active {
+            background-color: #aaaaff;
+        }
+    }
+}
